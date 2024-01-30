@@ -8,5 +8,5 @@
 3. 控制台进入`Palworld-restart.sh`脚本所在目录，使用`./Palworld-restart.sh`命令运行脚本，启动服务器。
 4. 使用`crontab -e`添加以下命令，设定脚本定时执行，实现自动重启
 ```bash
-0 * * * * cd  && ./Palworld-restart.sh
+0 * * * * cd 脚本所在绝对路径 && ./Palworld-restart.sh
 ```
